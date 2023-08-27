@@ -1,1 +1,1 @@
-- <b>Best Poster Presentation Award</b>, 35th Workshop on Image Processing and Image Understanding (IPIU) 2023
+- <b>Best Poster Presentation Award</b>, 35th Workshop on Image Processing and Image Understanding (IPIU), Feb. 2023

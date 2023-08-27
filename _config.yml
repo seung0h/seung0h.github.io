@@ -1,0 +1,65 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Seungoh Han
+description: >- # this means to ignore newlines until "baseurl:"
+  personal web
+baseurl: "" # the subpath of the site
+url: "https://seung0h.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Work
+    - name: Blog
+
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: sohan@unist.ac.kr
+      link: mailto:sohan@unist.ac.kr
+    - name: Email
+      value: so.h4ns@gmail.com
+      link: mailto:so.h4ns@gmail.com
+  follow:
+    # - name: Twitter
+    #   link: http://twitter.com/YourTwitterUsername
+    #   username: "@YourTwitterUsername"
+    # - name: Facebook
+    #   link: http://facebook.com/YourFacebookUsername
+    - name: LinkedIn
+      link: http://linkedin.com/in/seungohhan
+    - name: GitHub
+      link: http://github.com/seung0h
+    # - name: Dribbble
+    #   link: https://dribbble.com/YourDribbbleUsername
+    - name: RSS
+      link: /feed.xml
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+  - jemoji
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1

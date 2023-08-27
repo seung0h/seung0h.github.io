@@ -24,13 +24,16 @@
           {{ content }}
         </div>
 
-        <!-- <div>
+        <div class="section">
           <h2>Publications</h2>
+          {% include_relative contents/pubs.md %}
         </div>
-
-        <div>
+        
+        <div class="section">
           <h2>Projects</h2>
+          {% include_relative contents/projects.md %}
         </div>
+        <!-- 
 
         <div>
           <h2>Experiences</h2>
@@ -38,7 +41,7 @@
       -->
         <div class="section">
           <h2>Honors & Awards</h2>
-          {% include_relative honors.md %}
+          {% include_relative contents/honors.md %}
         </div>
 
       </div>

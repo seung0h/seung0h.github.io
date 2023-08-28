@@ -7,7 +7,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of the site
 url: "https://seung0h.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
-google_analytics: "UA-121636368-3"
 
 header:
   pages:
@@ -17,7 +16,7 @@ header:
     - name: Blog
 
 footer:
-  show_powered_by: true
+  show_powered_by: false
   contact:
     - name: Email
       value: sohan@unist.ac.kr
